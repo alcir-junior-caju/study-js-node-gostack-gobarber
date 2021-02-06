@@ -54,7 +54,7 @@ class SendForgotPasswordEMailService {
         variables: {
           name: user.name,
           token,
-          link: `${process.env.APP_WEB_URL}/reset?token=${token}`,
+          link: `${process.env.APP_WEB_URL}/reset-password?token=${token}`,
           assign: 'Equipe GoBarber'
         }
       }
