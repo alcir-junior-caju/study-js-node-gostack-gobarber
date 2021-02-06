@@ -39,4 +39,4 @@ Pequena API criada em Node, usando Typescript com a abordagem SOLID, DDD e TDD, 
 
 #### Configuração Insomnia:
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Gobarber%20API%20Insomnia&uri=https%3A%2F%2Fraw.githubusercontent.com%2Falcir-junior-caju%2Fstudy-js-node-gostack-gobarber%2Fmaster%2Fgobarber-api-insmnia.json)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=GoBarberAPI&uri=https%3A%2F%2Fraw.githubusercontent.com%2Falcir-junior-caju%2Fstudy-js-node-gostack-gobarber%2Fmaster%2Fgobarber-api-insomnia.json)
