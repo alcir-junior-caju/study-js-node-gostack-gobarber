@@ -10,9 +10,14 @@ import IAppointmentsRepository from '@modules/appointments/repositories/IAppoint
 class FakeAppointmentsRepository implements IAppointmentsRepository {
   private appointments: Appointment[] = [];
 
-  public async findByDate(date: Date): Promise<Appointment | null> {
-    const findAppointment = this.appointments.find(appointment =>
-      isEqual(appointment.date, date)
+  public async findByDate(
+    date: Date,
+    providerId: string
+  ): Promise<Appointment | null> {
+    const findAppointment = this.appointments.find(
+      appointment =>
+        isEqual(appointment.date, date) &&
+        appointment.provider_id === providerId
     );
 
     return findAppointment;
