@@ -48,7 +48,7 @@ class SESMailProvider implements IMailProvider {
         address: to.email
       },
       subject,
-      text: await this.mailTemplateProvider.parse(templateData)
+      html: await this.mailTemplateProvider.parse(templateData)
     });
   }
 }
