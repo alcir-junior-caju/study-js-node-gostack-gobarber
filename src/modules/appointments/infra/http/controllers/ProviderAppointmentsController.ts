@@ -8,7 +8,7 @@ class ProviderAppointmentsController {
   public async index(request: Request, response: Response): Promise<Response> {
     const providerId = request.user.id;
     const {
-      body: { day, month, year }
+      query: { day, month, year }
     } = request;
 
     const listProviderAppointments = container.resolve(
@@ -17,9 +17,9 @@ class ProviderAppointmentsController {
 
     const appointments = await listProviderAppointments.execute({
       providerId,
-      day,
-      month,
-      year
+      day: Number(day),
+      month: Number(month),
+      year: Number(year)
     });
 
     return response.json(classToClass(appointments));
