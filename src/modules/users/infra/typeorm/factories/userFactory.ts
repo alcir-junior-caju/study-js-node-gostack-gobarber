@@ -7,6 +7,7 @@ import User from '@modules/users/infra/typeorm/entities/User';
 define(User, (faker: typeof Faker) => {
   const firstName = faker.name.firstName();
   const lastName = faker.name.lastName();
+  const id = faker.random.uuid();
   const name = `${firstName} ${lastName}`;
   const email = faker.internet.email(
     firstName.toLowerCase(),
@@ -17,6 +18,7 @@ define(User, (faker: typeof Faker) => {
   const user = new User();
 
   Object.assign(user, {
+    id,
     name,
     email,
     password
