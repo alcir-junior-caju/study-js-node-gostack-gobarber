@@ -38,10 +38,13 @@ Pequena API criada em Node, usando Typescript com a abordagem SOLID, DDD e TDD, 
 Para quem quiser utilizar o projeto execute os comandos para criar as migrations e popular:
 
 yarn typeorm migration:run
+
 yarn seed:run
 
 Isso irá criar alguns dados de exemplos, com dois e-mails para testes:
+
 client@gobarber.com.br
+
 provider@gobarber.com.br
 
 ## A senha para todos usuários são 123456
