@@ -47,7 +47,7 @@ client@gobarber.com.br
 
 provider@gobarber.com.br
 
-## A senha para todos usuários são 123456
+A senha para todos usuários são 123456
 
 #### Configuração Insomnia:
 
