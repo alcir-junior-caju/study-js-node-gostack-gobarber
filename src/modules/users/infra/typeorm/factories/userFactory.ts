@@ -9,6 +9,7 @@ define(User, (faker: typeof Faker) => {
   const firstName = faker.name.firstName();
   const lastName = faker.name.lastName();
   const id = faker.random.uuid();
+  const numberAvatar = faker.random.number({ min: 1, max: 1000 });
 
   const name = `${firstName} ${lastName}`;
 
@@ -19,7 +20,7 @@ define(User, (faker: typeof Faker) => {
 
   const password = hash('123456', 8);
 
-  const avatar = faker.random.image();
+  const avatar = `https://i.pravatar.cc/${numberAvatar}`;
 
   const user = new User();
 
