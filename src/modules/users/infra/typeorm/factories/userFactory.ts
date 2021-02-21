@@ -20,7 +20,7 @@ define(User, (faker: typeof Faker) => {
 
   const password = hash('123456', 8);
 
-  const avatar = `https://i.pravatar.cc/${numberAvatar}`;
+  const avatar = `https://i.pravatar.cc/150`;
 
   const user = new User();
 
