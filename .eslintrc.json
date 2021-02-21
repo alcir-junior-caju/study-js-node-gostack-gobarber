@@ -23,6 +23,7 @@
   "rules": {
     "prettier/prettier": "error",
     "no-useless-constructor": "off",
+    "no-param-reassign": "off",
     "no-unused-vars": "off",
     "camelcase": "off",
     "no-console": "off",
