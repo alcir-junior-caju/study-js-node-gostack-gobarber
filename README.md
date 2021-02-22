@@ -49,6 +49,16 @@ provider@gobarber.com.br
 
 A senha para todos usuários são 123456
 
+---
+
+#### Visualizar o projeto na IDE:
+
+Para quem quiser visualizar o projeto na IDE esse recurso do GitHub é bem bacana:
+
+https://github1s.com/alcir-junior-caju/study-js-node-gostack-gobarber
+
+---
+
 #### Configuração Insomnia:
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=GoBarberAPI&uri=https%3A%2F%2Fraw.githubusercontent.com%2Falcir-junior-caju%2Fstudy-js-node-gostack-gobarber%2Fmaster%2Fgobarber-api-insomnia.json)
